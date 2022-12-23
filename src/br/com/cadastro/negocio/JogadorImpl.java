@@ -66,5 +66,10 @@ public class JogadorImpl {
         return jogadores.stream().mapToInt(Jogador::getAge).average().getAsDouble();
     }
 
+    public void imprimirJogadorMaisVelho(List<Jogador> jogadores){
+        Jogador jogador = jogadores.stream().max(Comparator.comparingInt(Jogador::getAge)).get();
+        System.out.println("Jogador mais velho: " + jogador.getName());
+    }
+
 
  }
