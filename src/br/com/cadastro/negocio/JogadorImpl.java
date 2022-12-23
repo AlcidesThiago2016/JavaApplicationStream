@@ -81,4 +81,9 @@ public class JogadorImpl {
         System.out.println("Jogador mais novo: " + jogador.getName());
     }
 
+    public int imprimirSomatoriaGols(List<Jogador> jogadores){
+        int soma = jogadores.stream().mapToInt(jogador -> jogador.getGoalsScored()).sum();
+        return soma;
+    }
+
  }
