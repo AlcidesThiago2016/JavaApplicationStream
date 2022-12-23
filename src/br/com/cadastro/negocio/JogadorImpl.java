@@ -52,5 +52,7 @@ public class JogadorImpl {
         jogadores.stream().forEach(System.out::println);
     }
 
-    
+    public void imprimirJogadoresTime(List<Jogador> jogadores, String time){
+        jogadores.stream().filter(jogador -> jogador.getCurrentTeam().equals(time)).forEach(System.out::println);
+    }
  }
