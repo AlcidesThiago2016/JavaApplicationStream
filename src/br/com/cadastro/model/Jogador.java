@@ -53,10 +53,8 @@ public class Jogador {
 
     @Override
     public String toString() {
-        return "Jogador{" +
-                "name='" + name + '\'' +
-                ", position='" + position + '\'' +
-                ", currentTeam='" + currentTeam + '\'' +
-                '}';
+        return  name + " - " +
+                position + " - " +
+                currentTeam ;
     }
 }

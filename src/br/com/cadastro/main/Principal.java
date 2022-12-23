@@ -25,6 +25,11 @@ public class Principal {
             jogador.imprimirJogadorArtilheiro(jogadorList);
             jogador.imprimirJogadorMaisVelho(jogadorList);
             jogador.imprimirJogadorMaisNovo(jogadorList);
+            jogador.imprimiJogadores(jogadorList);
+            System.out.println(jogador.calcularMediaIdade(jogadorList));
+            jogador.imprimirJogadoresTime(jogadorList,"Santos");
+            jogador.imprimirJogadoresTimeGol(jogadorList,"Flamengo");
+
 
         }
     }

@@ -4,3 +4,6 @@ Nene,Atacante,33,Vasco,8
 Ricardo Oliveira,Atacante,34,Santos,20
 Bruno,Lateral-Direito,23,São Paulo,3
 Renan,Goleiro,33,Goiás,0
+Egidio,Lateral-Esquerdo,27,Palmeiras,3
+Lugano,Zagueiro,35,São Paulo,1
+Paulo Guerreiro,Atacante,34,Flamengo,13
