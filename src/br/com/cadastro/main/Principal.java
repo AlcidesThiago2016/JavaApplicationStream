@@ -11,7 +11,7 @@ public class Principal {
     public static void main(String[] args) {
         Principal p = new Principal();
         JogadorImpl jogador = new JogadorImpl();
-        String endDir = "";
+        String endDir = "E:\\Cursos Programação\\Curso Nelio\\JavaApplicationStream";
         String nomeArq = "jogadores.txt";
         List<Jogador> jogadorList = null;
         try {

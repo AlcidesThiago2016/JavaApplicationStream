@@ -1,0 +1,6 @@
+Hernane,Atacante,29,Sport,3
+Lucas Pratto,Atacante,27,Atlético-MG,13
+Nene,Atacante,33,Vasco,8
+Ricardo Oliveira,Atacante,34,Santos,20
+Bruno,Lateral-Direito,23,São Paulo,3
+Renan,Goleiro,33,Goiás,0

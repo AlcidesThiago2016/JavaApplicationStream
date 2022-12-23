@@ -36,7 +36,7 @@ public class JogadorImpl {
             String info[] = str.split(",");
             jogador = new Jogador();
             jogador.setName(info[0]);
-            jogador.setName(info[1]);
+            jogador.setPosition(info[1]);
             jogador.setAge(Integer.parseInt(info[2]));
             jogador.setCurrentTeam(info[3]);
             jogador.setGoalsScored(Integer.parseInt(info[4]));
