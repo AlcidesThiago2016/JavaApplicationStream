@@ -76,5 +76,9 @@ public class JogadorImpl {
         System.out.println("Jogador mais novo: " + jogador.getName());
     }
 
+    public void imprimirJogadorArtilheiro(List<Jogador> jogadores){
+        Jogador jogador = jogadores.stream().max(Comparator.comparingInt(Jogador::getGoalsScored)).get();
+        System.out.println("Jogador mais novo: " + jogador.getName());
+    }
 
  }
