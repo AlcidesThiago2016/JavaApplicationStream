@@ -86,4 +86,11 @@ public class JogadorImpl {
         return soma;
     }
 
+    public void agrupaJogadoresPeloTime(List<Jogador> jogadores){
+        Map<String, List<Jogador>> groupByTime = jogadores.stream().collect(
+                Collectors.groupingBy(Jogador::getCurrentTeam));
+        System.out.println(groupByTime);
+    }
+
+
  }
