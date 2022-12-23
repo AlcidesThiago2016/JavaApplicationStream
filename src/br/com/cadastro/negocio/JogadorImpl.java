@@ -62,5 +62,9 @@ public class JogadorImpl {
         jogadores.stream().sorted(Comparator.comparing(Jogador::getCurrentTeam)).forEach(System.out::println);
     }
 
+    public double calcularMediaIdade(List<Jogador> jogadores){
+        return jogadores.stream().mapToInt(Jogador::getAge).average().getAsDouble();
+    }
+
 
  }
