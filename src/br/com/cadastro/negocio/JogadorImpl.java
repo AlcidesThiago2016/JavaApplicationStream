@@ -92,5 +92,8 @@ public class JogadorImpl {
         System.out.println(groupByTime);
     }
 
-
+    public void ordenarJogadoresGols(List<Jogador> jogadores){
+        jogadores.stream().sorted(Comparator.comparingInt(Jogador::getGoalsScored)
+                .reversed()).forEach(System.out::println);
+    }
  }
