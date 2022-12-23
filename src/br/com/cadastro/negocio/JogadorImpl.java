@@ -6,10 +6,7 @@ import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -60,4 +57,10 @@ public class JogadorImpl {
         jogadores.stream().filter(jogador -> jogador.getCurrentTeam().equals(time) && jogador.getGoalsScored() > 10)
                 .forEach(System.out::println);
     }
+
+    public void agruparJogadoresPorTime(List<Jogador> jogadores){
+        jogadores.stream().sorted(Comparator.comparing(Jogador::getCurrentTeam)).forEach(System.out::println);
+    }
+
+
  }
